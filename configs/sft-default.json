@@ -1,0 +1,14 @@
+{
+  "dataset": "examples/sft.jsonl",
+  "kind": "sft",
+  "val_ratio": 0.1,
+  "seed": 17,
+  "lora_r": 8,
+  "lora_alpha": 16.0,
+  "lora_dropout": 0.05,
+  "target_modules": ["q_proj", "v_proj"],
+  "lr": 0.0002,
+  "steps": 1000,
+  "warmup": 50,
+  "min_lr_ratio": 0.1
+}
