@@ -1,0 +1,14 @@
+{
+  "dataset": "examples/dpo.jsonl",
+  "kind": "dpo",
+  "val_ratio": 0.2,
+  "seed": 7,
+  "lora_r": 4,
+  "lora_alpha": 8.0,
+  "lora_dropout": 0.1,
+  "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"],
+  "lr": 0.0001,
+  "steps": 600,
+  "warmup": 30,
+  "min_lr_ratio": 0.05
+}
